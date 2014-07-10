@@ -45,13 +45,10 @@ class RedactorEditor(widgets.Textarea):
 
     class Media:
         js = (
-            'redactor/jquery.min.js',
-            'redactor/jquery-migrate.min.js',
             'redactor/redactor.min.js',
         )
         css = {
             'all': (
                 'redactor/css/redactor.css',
-                'redactor/css/django_admin.css',
             )
         }
