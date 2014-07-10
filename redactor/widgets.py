@@ -49,6 +49,6 @@ class RedactorEditor(widgets.Textarea):
         )
         css = {
             'all': (
-                'redactor/css/redactor.css',
+                'redactor/redactor.css',
             )
         }
